@@ -1,6 +1,7 @@
 {
-  "name": "cli-tool-now-config",
-  "version": "1.0.3",
+  "name": "cli-tool-node",
+  "description": "A node cli tool. Can be used with npx 🎉🎊🎉",
+  "version": "1.0.4",
   "bin": "src/index.js",
   "main": "index.js",
   "author": "w3rc",
