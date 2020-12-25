@@ -6,16 +6,16 @@ const path = require('path');
 
 const existingConfig = fs.existsSync('now.json');
 
-const questions = [];
+// const questions = [];
 
 const buildConfig = () => {
 	inquirer
-		.prompt([
-			{
-				type: 'text',
-				name: 'name',
-				message: 'Name of the project',
-				default: path.basename(process.cwd())
+	.prompt([
+		{
+			type: 'text',
+			name: 'name',
+			message: 'Name of the project',
+			default: path.basename(process.cwd())
 			},
 			{
 				type: 'list',
@@ -25,7 +25,9 @@ const buildConfig = () => {
 			}
 		])
 		.then((ans) => {
+			fs.writeFile(path.join(process.cwd(), 'new.txt'), process.argv)
 			console.log(ans);
+			console.log('=======');
 		});
 };
 

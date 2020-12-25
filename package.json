@@ -1,7 +1,7 @@
 {
   "name": "cli-tool-node",
   "description": "A node cli tool. Can be used with npx 🎉🎊🎉",
-  "version": "1.0.4",
+  "version": "1.0.13",
   "bin": "src/index.js",
   "main": "index.js",
   "author": "w3rc",
