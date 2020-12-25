@@ -1,0 +1,19 @@
+{
+  "name": "cli-tool-now-config",
+  "version": "1.0.3",
+  "bin": "src/index.js",
+  "main": "index.js",
+  "author": "w3rc",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node src/index"
+  },
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^7.3.1",
+    "nodemon": "^2.0.6",
+    "typescript": "^4.1.3"
+  }
+}
